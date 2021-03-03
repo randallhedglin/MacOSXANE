@@ -1,0 +1,6 @@
+framework module MacOSXANE {
+  umbrella header "MacOSXANE.h"
+
+  export *
+  module * { export * }
+}

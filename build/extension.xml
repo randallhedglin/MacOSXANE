@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+
+<extension xmlns="http://ns.adobe.com/air/extension/18.0">
+
+	<id>com.wb.software.MacOSXANE</id>
+
+	<platforms>
+		<platform name="MacOS-x86">
+			<applicationDeployment>
+
+				<nativeLibrary>MacOSXANE.framework</nativeLibrary>
+				<initializer>MacOSXANEExtensionInitializer</initializer>
+
+			</applicationDeployment>
+		</platform>
+	</platforms>
+
+	<versionNumber>1.0.0</versionNumber>
+
+</extension>
